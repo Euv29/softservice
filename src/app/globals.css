@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Gilroy Font Family - SoftService Default Typography */
 @font-face {
   font-family: 'Gilroy';

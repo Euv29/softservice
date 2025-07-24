@@ -95,7 +95,7 @@ function CacimboPopup({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
               Ver Mais Detalhes
             </Link>
             <Link
-              href="/contactos"
+              href="/cacimbo#solicitar-licenca"
               onClick={onClose}
               className="flex-1 inline-flex items-center justify-center px-6 py-4 border-2 border-[#e7003b] text-[#e7003b] font-semibold rounded-xl hover:bg-[#e7003b] hover:text-white transition-all duration-300"
             >

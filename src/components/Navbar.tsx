@@ -121,7 +121,7 @@ export default function Navbar() {
             ))}
             <div className="px-4 pt-3">
               <Link
-                href="/contacto"
+                href="/contactos"
                 onClick={() => setIsMenuOpen(false)}
                 className="block w-full text-center bg-[#0190d2] text-white px-4 py-3 rounded font-medium text-sm uppercase tracking-wide hover:bg-[#01a0e2] transition-colors duration-200"
               >

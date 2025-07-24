@@ -284,17 +284,17 @@ export default function ServicosPage() {
                 {/* CTA Button */}
                 <div className="flex items-center justify-between pt-6 border-t border-gray-100">
                   <Link
-                    href="/contactos"
+                    href={service.id === 'cacimbo' ? '/cacimbo#solicitar-licenca' : '/contactos'}
                     className={`inline-flex items-center px-6 py-3 bg-gradient-to-r ${service.color} text-white font-semibold rounded-xl hover:shadow-lg transition-all duration-300 transform hover:scale-105`}
                   >
-                    <span>Solicitar Orçamento</span>
+                    <span>{service.id === 'cacimbo' ? 'Solicitar Licença' : 'Solicitar Orçamento'}</span>
                     <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
                   
                   <div className="text-sm text-gray-500">
-                    <span className="font-medium text-[#01a0e2]">Orçamento gratuito</span>
+                    <span className="font-medium text-[#01a0e2]">{service.id === 'cacimbo' ? 'Demonstração gratuita' : 'Orçamento gratuito'}</span>
                   </div>
                 </div>
 

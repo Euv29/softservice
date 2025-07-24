@@ -50,7 +50,7 @@ export default function Footer() {
               <li><Link href="/#servicos" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Videovigilância</Link></li>
               <li><Link href="/#servicos" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Controlo Biométrico</Link></li>
               <li><Link href="/#servicos" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Desenvolvimento Web</Link></li>
-              <li><Link href="/#servicos" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Sistema CACIMBO</Link></li>
+              <li><Link href="/cacimbo" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Sistema CACIMBO ERP</Link></li>
             </ul>
           </div>
 

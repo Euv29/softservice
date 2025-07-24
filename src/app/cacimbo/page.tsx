@@ -128,7 +128,7 @@ export default function CacimboPage() {
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
                 <motion.a
-                  href="/contactos"
+                  href="#solicitar-licenca"
                   className="group inline-flex items-center justify-center px-8 py-4 bg-[#e7003b] text-white font-semibold rounded-xl hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
@@ -139,7 +139,7 @@ export default function CacimboPage() {
                   Solicitar licença
                 </motion.a>
               </motion.div>
-              
+
             </motion.div>
 
             {/* Right Image */}
@@ -214,7 +214,7 @@ export default function CacimboPage() {
               </p>
 
               <motion.a
-                href="/contactos"
+                href="#solicitar-licenca"
                 className="group inline-flex items-center justify-center px-8 py-4 bg-[#e7003b] text-white font-semibold rounded-xl hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
@@ -256,7 +256,7 @@ export default function CacimboPage() {
               </p>
 
               <motion.a
-                href="/contactos"
+                href="#solicitar-licenca"
                 className="group inline-flex items-center justify-center px-8 py-4 bg-[#e7003b] text-white font-semibold rounded-xl hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
@@ -418,7 +418,7 @@ export default function CacimboPage() {
       </section>
 
       {/* CTA Section with Form */}
-      <section className="py-24 bg-gradient-to-br from-[#e7003b] via-red-600 to-[#e7003b] text-white relative overflow-hidden">
+      <section id="solicitar-licenca" className="py-24 bg-gradient-to-br from-[#e7003b] via-red-600 to-[#e7003b] text-white relative overflow-hidden">
         {/* Background decorations */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-32 -translate-y-32"></div>
@@ -472,7 +472,7 @@ export default function CacimboPage() {
                   'Implementação Rápida',
                   'Suporte Completo',
                   'Treinamento Incluído'
-                ].map((feature, index) => (
+                ].map((feature) => (
                   <div key={feature} className="flex items-center text-sm opacity-90">
                     <svg className="w-4 h-4 mr-3 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
