@@ -23,7 +23,7 @@ export default function Navbar() {
     { href: '/', label: 'Início' },
     { href: '/sobre', label: 'Sobre' },
     { href: '/servicos', label: 'Serviços' },
-    { href: '/cacimbo', label: 'CACIMBO' },
+    { href: '/cacimbo', label: 'CACIMBO ERP' },
     { href: '/contactos', label: 'Contacto' },
   ]
 

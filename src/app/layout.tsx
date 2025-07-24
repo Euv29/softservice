@@ -116,7 +116,7 @@ export const metadata: Metadata = {
     default: "SoftService Angola - Soluções Tecnológicas Empresariais",
     template: "%s | SoftService Angola",
   },
-  description: "SoftService Angola é especializada em soluções tecnológicas empresariais: videovigilância, controlo biométrico, desenvolvimento web e sistema CACIMBO. Atuamos em Luanda, Benguela, Lubango, Huambo, Cuíto, Moxico, Cuanza Sul, Cuando Cubango e Saurimo.",
+  description: "SoftService Angola é especializada em soluções tecnológicas empresariais: videovigilância, controlo biométrico, desenvolvimento web e sistema CACIMBO ERP. Atuamos em Luanda, Benguela, Lubango, Huambo, Cuíto, Moxico, Cuanza Sul, Cuando Cubango e Saurimo.",
   keywords: [
     "SoftService Angola",
     "tecnologia empresarial Angola", 
@@ -124,7 +124,7 @@ export const metadata: Metadata = {
     "controlo biométrico Angola",
     "desenvolvimento web Angola",
     "sistema gestão empresarial Angola",
-    "CACIMBO sistema gestão",
+    "CACIMBO ERP sistema gestão",
     "câmeras segurança Angola",
     "ponto electrônico Angola",
     "software empresarial Angola",
@@ -153,7 +153,7 @@ export const metadata: Metadata = {
     url: "https://softservice-ao.com",
     siteName: "SoftService Angola",
     title: "SoftService Angola - Soluções Tecnológicas Empresariais",
-    description: "Empresa angolana especializada em videovigilância, controlo biométrico, desenvolvimento web e sistema CACIMBO. Cobertura em Luanda, Benguela, Lubango, Huambo, Cuíto, Moxico, Cuanza Sul, Cuando Cubango e Saurimo.",
+    description: "Empresa angolana especializada em videovigilância, controlo biométrico, desenvolvimento web e sistema CACIMBO ERP. Cobertura em Luanda, Benguela, Lubango, Huambo, Cuíto, Moxico, Cuanza Sul, Cuando Cubango e Saurimo.",
     images: [
       {
         url: "/og-image.jpg",
@@ -166,7 +166,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "SoftService Angola - Soluções Tecnológicas Empresariais",
-    description: "Empresa angolana especializada em videovigilância, controlo biométrico, desenvolvimento web e sistema CACIMBO. Cobertura em Luanda, Benguela, Lubango, Huambo, Cuíto, Moxico, Cuanza Sul, Cuando Cubango e Saurimo.",
+    description: "Empresa angolana especializada em videovigilância, controlo biométrico, desenvolvimento web e sistema CACIMBO ERP. Cobertura em Luanda, Benguela, Lubango, Huambo, Cuíto, Moxico, Cuanza Sul, Cuando Cubango e Saurimo.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -251,7 +251,7 @@ export default function RootLayout({
                 "Sistemas de videovigilância",
                 "Controlo biométrico de acessos",
                 "Desenvolvimento de websites",
-                "Sistema CACIMBO de gestão empresarial"
+                "Sistema CACIMBO ERP de gestão empresarial"
               ]
             })
           }}

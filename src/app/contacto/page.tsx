@@ -249,7 +249,7 @@ export default function ContactosPage() {
                       <option value="videovigilancia">Sistema de Videovigilância</option>
                       <option value="biometria">Controlo Biométrico de Acessos</option>
                       <option value="website">Desenvolvimento de Website</option>
-                      <option value="cacimbo">Sistema CACIMBO</option>
+                      <option value="cacimbo">Sistema CACIMBO ERP</option>
                       <option value="consultoria">Consultoria Tecnológica</option>
                       <option value="manutencao">Manutenção e Suporte</option>
                       <option value="outro">Outro Serviço</option>

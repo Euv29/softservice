@@ -321,7 +321,7 @@ export default function Home() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  Fundada em <strong className="text-gray-900">2020</strong> com sede no Cuito, província do Bié, 
+                  Fundada em <strong className="text-gray-900">2015</strong> com sede no Cuito, província do Bié, 
                   a SoftService Angola é especializada em soluções tecnológicas empresariais que promovem 
                   a excelência operacional e a modernização de processos organizacionais.
                 </motion.p>

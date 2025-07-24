@@ -43,7 +43,7 @@ export default function SobrePage() {
                 Transformando Negócios <span className="text-[#01a0e2]">Através da Tecnologia</span>
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Fundada em 2020 na província do Bié, a SoftService Angola nasceu com o propósito 
+                Fundada em 2015 na província do Bié, a SoftService Angola nasceu com o propósito 
                 de democratizar o acesso à tecnologia empresarial em Angola. Nossa jornada começou 
                 em Cuíto e hoje expandimos nossos serviços para as principais províncias do país.
               </p>
